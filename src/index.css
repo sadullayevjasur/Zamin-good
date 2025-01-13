@@ -1,0 +1,411 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: rgba(30, 255, 0, 0.852);
+    padding: 10px;
+    font-size: 50px;
+    color: black;
+    border-radius: 10px;
+}
+
+
+header {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(110deg, white 68%, yellow 32%);
+    background-size: 100%;
+
+}
+.containeron{
+    max-width: 100%;
+    margin: auto;
+    background: linear-gradient(110deg, white 68%, yellow 32%);
+    background-size: 100%;
+    
+}
+
+nav a {
+    font-family: cursive;
+    color: #ff7f50;
+    font-size: 17px;
+}
+
+
+
+.logoimg {
+    width: 120px;
+}
+
+@media (max-width: 610px) {
+    .contact {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(249, 249, 249);
+    }
+
+    .logoimg {
+        width: 100px;
+    }
+
+    .icon {
+        width: 30px;
+        font-size: 40px;
+        margin: auto;
+    }
+
+    #menubtn {
+        display: block;
+    }
+
+}
+section .content .malumot  p {
+   font-size: 16px;
+   color: rgb(124, 124, 124);
+ 
+  }
+
+
+@media (max-width: 610px) {
+    section .content .malumot h1 {
+        color: black;
+        font-size: 40px;
+        font-family: cursive;
+    }
+
+    .content .malumot h1 span {
+        color: rgb(255, 187, 0);
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    section {
+        padding: 0;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+}
+.btnorder{
+    margin: 20px 0;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 360px) {
+    section .content .malumot h1 {
+        color: black;
+        font-size: 30px;
+        font-family: cursive;
+    }
+
+    section .content .malumot p {
+        font-size: 12px;
+    }
+
+    .content .malumot h1 span {
+        color: rgb(255, 187, 0);
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    section {
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 250px) {
+    section .content .malumot h1 {
+        color: black;
+        font-size: 30px;
+
+        font-family: cursive;
+    }
+
+    .content .malumot h1 span {
+        color: rgb(255, 187, 0);
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    section .content .malumot p {
+        font-size: 10px;
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+section {
+    padding: 5%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.content .malumot{
+    width: 550px;
+}
+.section .img {
+    flex: 1 1 300px;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    
+}
+
+.section .img img {
+    width: 82%;
+    animation: c 5s linear infinite;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes c {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+}
+
+.content .malumot h1 {
+    color: black;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.content .malumot h1 span {
+    color: rgb(255, 187, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    color: red;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.link {
+    max-width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    left: 0;
+    bottom: 0;
+    z-index:+2;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 20px;
+    color: rgba(255, 166, 0, 0.996);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 245, 245, 0.758);
+
+
+}
+.usersavat{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007BFF;
+}
+
+.menubaron{
+  max-width:100%;
+  height: auto;
+}
+.menubaron a{
+    padding: 0px;
+    margin: 10px;
+}
+
+
+
+.btnx {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+.order {
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 10px 10px 0 0;
+    color: black;
+    background-color: rgb(255, 251, 0);
+}
+.active{
+    color: rgb(0, 0, 0);
+}
+.unactive{
+    color: green;
+}
+.order:active{
+    border: 2px solid orange;
+    margin: 10px 10px 0 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .blok {
+    border: 2px solid red;
+
+}
+
+.offers h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+hr {
+    color: black;
+    border: 1.5px solid rgb(243, 204, 11);
+}
+
+.burger h1 {
+    font-size: 40px;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+
+}
+
+.burgers {
+    backdrop-filter: blur(2px);
+    background: linear-gradient(135deg , rgba(255,255,255,0.1), rgba(255,255,255,0));
+    box-shadow: 0 8px 32px 0px rgba(0, 0,0, 0.37);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+}
+
+.burgers .blok {
+    border: 2px solid red;
+}
+
+.burgers .blok img {
+    width: 100%;
+    height: 200px;
+}
+
+.mt-4 {
+    position: absolute;
+
+}
+
+.Abaut h1 {
+    font-size: 40px;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+}
+.contactus{
+    margin: 0px;
+    
+}
+.contactus h1{
+    font-size: 40px;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+}
+.contactus hr{
+    color: black;
+    border: 1.5px solid rgb(243, 204, 11);
+
+}
+
+
+.contactus h4{
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+}
+
