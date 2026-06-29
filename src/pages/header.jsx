@@ -38,8 +38,8 @@ function header() {
                 <NavLink to='/BURGER'><button type='submit' className='my-3 block px-6 py-2 text-white font-semibold text-sm rounded-md bg-gradient-to-r from-orange-400 to-orange-600 shadow-md transform transition-all duration-300 hover:scale-105 hover:from-orange-500 hover:to-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-opacity-75'>Buyurtma berish</button></NavLink>
 
                 <div className='flex m-5' >
-                  <a href="https://t.me/abdullayev_j001"><FaTelegramPlane style={{ fontSize: `20px` }} /></a>
-                  <a href="https://www.instagram.com/zaamin__food/"><FaInstagram style={{ color: `black`, fontSize: `20px`, margin: `0px 16px` }} />
+                  <a href=""><FaTelegramPlane style={{ fontSize: `20px` }} /></a>
+                  <a href=""><FaInstagram style={{ color: `black`, fontSize: `20px`, margin: `0px 16px` }} />
                   </a>
 
                 </div>

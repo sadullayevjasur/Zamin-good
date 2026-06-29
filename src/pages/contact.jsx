@@ -74,7 +74,7 @@ const contact = () => {
           <ul className="space-y-4 text-gray-700">
             <li className="flex items-center space-x-3">
               <span className="text-yellow-500 text-xl"><FaPhoneAlt/> </span>
-              <span>+998 93 396 70 00</span>
+              <span>+998 98 123 45 67</span>
             </li>
             <li className="flex  items-center space-x-3">
               <span className="text-yellow-500 text-xl"><MdEmail/> </span>
@@ -86,14 +86,14 @@ const contact = () => {
               
             </li>
             <li className="flex items-center space-x-3">
-              <a href="https://www.google.com/maps/place/%D0%A0-34,+%D0%97%D0%B0%D0%B0%D0%BC%D0%B8%D0%BD,+%D0%94%D0%B6%D0%B8%D0%B7%D0%B0%D0%BA%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@39.9635403,68.3815915,460m/data=!3m2!1e3!4b1!4m6!3m5!1s0x38b24ef8fade5075:0xbcf8078679dbf1c4!8m2!3d39.9635372!4d68.3835432!16s%2Fg%2F11r_tvvwpy!5m1!1e4?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"><span className="text-yellow-500 text-xl"><FaMapLocationDot/> </span></a>
+              <span className="text-yellow-500 text-xl"><FaMapLocationDot/> </span>
               <span>Lokatsiya</span>
               
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </div><FaMapLocationDot/>
     </section>
 
   );
